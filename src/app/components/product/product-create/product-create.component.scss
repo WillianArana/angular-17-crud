@@ -1,0 +1,17 @@
+.product {
+  padding: 4px 10px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+
+    > .button-container {
+      display: block;
+      button {
+        float: right;
+        margin: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<mat-toolbar color="primary" class="header mat-elevation-z4">
+  <mat-toolbar-row>
+    <span
+      ><a><img class="logo" src="assets/img/logo.png" alt="logo" /></a
+    ></span>
+
+    <ng-container *ngIf="data() as headerData">
+      <span class="title-group"
+        ><a [routerLink]="headerData.routeUrl"
+          ><i class="material-icons">{{ headerData.icon }}</i>
+          {{ headerData.title }}</a
+        ></span
+      >
+    </ng-container>
+  </mat-toolbar-row>
+</mat-toolbar>

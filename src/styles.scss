@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #303030;
+}
+
+.red {
+  color: #e35e6b;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.msg-success {
+  > div {
+    background-color: #28a745 !important;
+
+    .mat-mdc-snack-bar-label,
+    .mdc-button__label {
+      color: white;
+    }
+  }
+}
+
+.msg-error {
+  > div {
+    background-color: #e35e6b !important;
+
+    .mat-mdc-snack-bar-label,
+    .mdc-button__label {
+      color: white;
+    }
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
